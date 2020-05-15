@@ -1,28 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700");
 *{
 	padding: 0;
 	margin: 0;
-	color:white;
+	font-family: "Titillium Web", sans-serif;
 
 }
 
 body,html{
+
 	background-color: #1f2532;
 	width: 100%;
 	height: 100%;
 
 }
-
-.ima1{
-	background-color: #1f2532;
-	width: 100%;
-	height: 100%;
-}
-
 
 /* MENU */
 
 .menu .navbar {
-  /* background-color: transparent !important; */ 
+  background-color: transparent !important; 
   color: white;
 }
 
@@ -33,6 +28,7 @@ body,html{
 
 .navbar a:hover {
   background-color: #000;
+
 }
 
 .navbar a{
@@ -44,22 +40,72 @@ body,html{
 .responsive {
   max-width: 100%;
   height: auto;
-  border-radius: 23px 23px 23px 23px;
+
   -webkit-box-shadow: 0px 0px 29px -5px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 29px -5px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 29px -5px rgba(0,0,0,0.75);
 }
 
+/* FIN IMAGEN RESPONSIVE*/ 
 
-.ima2{
-	height: 100%;
+.seccion1{
+	background-color: #1f2532;
 	width: 100%;
-	background-color: white;
+	height: 100%;
+	color:white;
+}
+
+.text h1, h2{
+
+	font-size: 7vw;
 
 }
 
-@media only screen and (max-width: 577px) {
-    .ima h1{
-	text-align: center;
+.text p{
+
+	font-size: 2vw;
+	color: #9a9a9a;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+	.text h1,h2{
+		font-size: 13vw;
 	}
+
+	.text p {
+		font-size: 6vw;
+	}
+
+	.navbar a{
+		font-size: 5vw;
+	}
+}
+
+
+/* FIN DE LA PRIMERA SECCIÓN */
+
+
+.seccion2{
+	height: 100%;
+	width: 100%;
+	background-color: white;
+}
+
+.texto h2{
+	font-size: 4vw;
+}
+
+.texto span{
+	color:red;
+}
+
+.img-thumbnail { 
+
+	margin:10px; 
+	padding:10px; 
+	
+
 }
